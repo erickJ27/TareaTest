@@ -85,6 +85,28 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TareaTestTests\BLL\CargosTests.cs" />
+    <Compile Include="TareaTestTests\BLL\CategoriasTests.cs" />
+    <Compile Include="TareaTestTests\BLL\ClientesTests.cs" />
+    <Compile Include="TareaTestTests\BLL\ComprasTests.cs" />
+    <Compile Include="TareaTestTests\BLL\DetalleComprasTests.cs" />
+    <Compile Include="TareaTestTests\BLL\DetalleVentasTests.cs" />
+    <Compile Include="TareaTestTests\BLL\EmpleadosTests.cs" />
+    <Compile Include="TareaTestTests\BLL\EstadosTests.cs" />
+    <Compile Include="TareaTestTests\BLL\ImagenesTests.cs" />
+    <Compile Include="TareaTestTests\BLL\MarcasTests.cs" />
+    <Compile Include="TareaTestTests\BLL\ModelosTests.cs" />
+    <Compile Include="TareaTestTests\BLL\PermisosTests.cs" />
+    <Compile Include="TareaTestTests\BLL\PersonasTests.cs" />
+    <Compile Include="TareaTestTests\BLL\ProductosTests.cs" />
+    <Compile Include="TareaTestTests\BLL\ProveedoresTests.cs" />
+    <Compile Include="TareaTestTests\BLL\TipoComprobantesTests.cs" />
+    <Compile Include="TareaTestTests\BLL\TipoPersonasTests.cs" />
+    <Compile Include="TareaTestTests\BLL\UnidadMedidasTests.cs" />
+    <Compile Include="TareaTestTests\BLL\UsuariosTests.cs" />
+    <Compile Include="TareaTestTests\BLL\Usuario_Has_PermisosTests.cs" />
+    <Compile Include="TareaTestTests\BLL\VentasTests.cs" />
+    <Compile Include="TareaTestTests\Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,13 +129,44 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="TareaTestTests\App.config" />
+    <None Include="TareaTestTests\bin\Debug\TareaTest.exe.config" />
+    <None Include="TareaTestTests\bin\Debug\TareaTestTests.dll.config" />
+    <None Include="TareaTestTests\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="TareaTestTests\obj\Debug\TareaTestTests.csproj.CopyComplete" />
+    <None Include="TareaTestTests\obj\Debug\TareaTestTests.csproj.CoreCompileInputs.cache" />
+    <None Include="TareaTestTests\obj\Debug\TareaTestTests.csprojAssemblyReference.cache" />
+    <None Include="TareaTestTests\packages.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="TareaTestTests\bin\Release\" />
+    <Folder Include="TareaTestTests\obj\Debug\TempPE\" />
     <Folder Include="UI\Consultas\" />
     <Folder Include="UI\Registros\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TareaTestTests\bin\Debug\EntityFramework.dll" />
+    <Content Include="TareaTestTests\bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="TareaTestTests\bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="TareaTestTests\bin\Debug\EntityFramework.xml" />
+    <Content Include="TareaTestTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" />
+    <Content Include="TareaTestTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" />
+    <Content Include="TareaTestTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" />
+    <Content Include="TareaTestTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll" />
+    <Content Include="TareaTestTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" />
+    <Content Include="TareaTestTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" />
+    <Content Include="TareaTestTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml" />
+    <Content Include="TareaTestTests\bin\Debug\TareaTest.exe" />
+    <Content Include="TareaTestTests\bin\Debug\TareaTest.pdb" />
+    <Content Include="TareaTestTests\bin\Debug\TareaTestTests.dll" />
+    <Content Include="TareaTestTests\bin\Debug\TareaTestTests.pdb" />
+    <Content Include="TareaTestTests\obj\Debug\TareaTestTests.csproj.FileListAbsolute.txt" />
+    <Content Include="TareaTestTests\obj\Debug\TareaTestTests.dll" />
+    <Content Include="TareaTestTests\obj\Debug\TareaTestTests.pdb" />
+    <Content Include="TareaTestTests\TareaTestTests.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
